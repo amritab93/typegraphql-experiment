@@ -1,0 +1,25 @@
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+.vscode
+
+**/*.js
+**/*.js.map
+build
+deploy
+!scripts/*.js
+!public/**/*.js
+!.prettierrc.js
+*.d.ts
+config/local.*
+/.idea
+.idea
